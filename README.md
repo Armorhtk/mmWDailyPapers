@@ -24,6 +24,10 @@
 
 原英文标题："Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue
 
+作者：Weiying Hou, Luca Jiang-Tao Yu, Chenshu Wu
+
+出版来源：arXiv
+
 出版时间：2026-04-10
 
 原英文摘要：Wilderness Search and Rescue (WiSAR) represents a longstanding and critical societal challenge, demanding innovative and automatic technological solutions. In this paper, we introduce Wi2SAR, a novel autonomous drone-based wireless system for long-range, through-occlusion WiSAR operations, without relying on existing infrastructure. Our basic insight is to leverage the automatic reconnection behavior of modern Wi-Fi devices to known networks. By mimicking these networks via on-drone Wi-Fi, Wi2SAR uniquely facilitates the discovery and localization of victims through their accompanying mobile devices. Translating this simple idea into a practical system poses substantial technical challenges. Wi2SAR overcomes these challenges via three distinct innovations: (1) a rapid and energy-efficient device discovery mechanism to discover and identify the target victim, (2) a novel RSS-only, long-range direction finding approach using a 3D-printed Luneburg Lens, amplifying the directional signal strength differences and significantly extending the operational range, and (3) an adaptive drone navigation scheme that guides the drone toward the target efficiently. We implement an end-to-end prototype and evaluate Wi2SAR across various mobile devices and real-world wilderness scenarios. Experimental results demonstrate Wi2SAR's high performance, efficiency, and practicality, highlighting its potential to advance autonomous WiSAR solutions. Wi2SAR is open-sourced at https://aiot-lab.github.io/Wi2SAR to facilitate further research and real-world deployment.
@@ -35,6 +39,10 @@
 ### 3DRO：使用2D成像雷达和陀螺仪实现激光雷达级SE(3)直接雷达里程计
 
 原英文标题：3DRO: Lidar-level SE(3) Direct Radar Odometry Using a 2D Imaging Radar and a Gyroscope
+
+作者：Cedric Le Gentil, Daniil Lisus, Timothy D. Barfoot
+
+出版来源：arXiv
 
 出版时间：2026-04-13
 
@@ -48,6 +56,10 @@
 
 原英文标题：Advancing Network Digital Twin Framework for Generating Realistic Datasets
 
+作者：Oscar Stenhammar, Sundeep Rangan, Gábor Fodor, Carlo Fischione
+
+出版来源：arXiv
+
 出版时间：2026-04-14
 
 原英文摘要：The integration of accurate and reproducible wireless network simulations is a key enabler for research on open, virtualized, and intelligent communication systems. Network Digital Twins (NDTs) provide a scalable alternative to costly and time-consuming measurement campaigns, while enabling controlled experimentation and data generation for data-driven network design. In this paper, we present an open and user-friendly NDT framework that integrates controllable vehicular mobility with the site-specific ray tracer Sionna and the discrete-event ns-3 network simulator, enabling virtualized end-to-end modeling of wireless networks across the radio, network, and application layers. The proposed framework is particularly well-suited for dynamic vehicular networks and urban deployments, supporting realistic mobility, traffic dynamics, and the extraction of cross-layer metrics. To promote open-source initiatives, we release both the NDT implementation and a representative dataset generated from realistic vehicular and urban scenarios. The framework and dataset facilitate reproducible experimentation and benchmarking of machine learning-based quality of service prediction, network optimization, and intelligent network management algorithms, lowering the entry barrier for research on virtual and open wireless network services.
@@ -59,6 +71,10 @@
 ### 改进的ANC算法：用于FMCW雷达的干扰抑制
 
 原英文标题：An Improved Adaptive Noise Cancellation Algorithm for Interference Suppression in FMCW Radar
+
+作者：Qinmmin Wang, Chuxiang Chen, Yuming Sun, Wanzhong Sun
+
+出版来源：MDPI AG
 
 出版时间：2026-04-13
 
@@ -72,6 +88,10 @@
 
 原英文标题：Analysis of Radar Cross Section Using Trihedral Corner Reflector for Millimeter-Wave FMCW Radar
 
+作者：N. A. Yusri, Sevia Mahdaliza Idrus, N. Mohamed, P. N. Ja'afar, S. Ambran, N. Shibagaki, K. Kashima, N. Yonemoto
+
+出版来源：Innovations in Electrical and Mechanical Engineering for a Sustainable Future
+
 出版时间：2026-04-07
 
 原英文摘要：Foreign object debris (FOD) encompasses any foreign materials on an airfield that pose risks to aircraft and airport operations that potentially cause accidents and damage. Detecting various types and sizes of objects on airport pavements is a challenge due to complex backgrounds and weak echoes from distant targets. Instead, using FOD simulators under controlled conditions offers cost-effective, convenient, and flexible testing. This chapter introduces an analysis of millimeter-wave radar detection that interacts with a target simulator on the airport runway while considering the impact of the runway’s surface. This analysis focused on the radar cross section (RCS) characteristics and how they change 38based on various factors such as distances, frequency, angles, and the size of triangular trihedral corner reflector. A comprehensive analysis and method ensures consistency in RCS values across the entire runway area, providing a thorough understanding of the radar system’s performance based on its standard design. The demonstrated results are based on the actual measurement of the KLIA runway and between radar antenna units surveillance radar towers. These findings underscore millimeter-wave radar’s potential as a promising technology for enhancing airport safety by enabling reliable FOD detection.
@@ -83,6 +103,10 @@
 ### 基于毫米波雷达的生猪呼吸频率检测方法
 
 原英文标题：Detection method of hog respiratory rate based on millimeter-wave radar
+
+作者：JIE Deng-fei, WANG Yang, JIANG Peng-hui, LI Tian-le, HE Jin-cheng
+
+出版来源：Journal of Southern Agriculture
 
 出版时间：2026-04-10
 
@@ -96,6 +120,10 @@
 
 原英文标题：Feature-Level Robustness of Physics-Guided Micro-Doppler Descriptors for classification of Drones and Birds
 
+作者：Shaiq e Mustafa, Salman Liaquat, Imran Hafeez Abbasi, Azhar Hasan
+
+出版来源：arXiv
+
 出版时间：2026-04-14
 
 原英文摘要：Micro-Doppler signatures are a proven modality for discriminating between drones and birds, but their reliability degrades in low-SNR, data-constrained settings where deep learning models often fail. This paper presents a systematic study of ten statistical and physics-motivated handcrafted features for micro-Doppler classification under controlled signal degradation, using a publicly available 77 GHz FMCW radar dataset. Spectrograms are corrupted with additive white Gaussian noise, phase noise, and their combination across SNRs from -10 dB to 10 dB and phase noise levels from 1 to 10 degrees. Features are evaluated using stratified 5-fold cross-validation with Support Vector Machine and Random Forest classifiers, using fixed hyperparameters across all noise conditions. On clean data, both models achieve mean accuracy of 0.916, with F1 scores of 0.909 (SVM) and 0.892 (Random Forest). Under severe noise, entropy-based and side-lobe features remain robust, yielding F1 scores up to 0.773 and 0.831, respectively. Permutation-based importance analysis shows that some features retain complementary discriminative power even when their individual importance is low. These results highlight the value of principled feature design and provide insight into feature robustness for interpretable radar classification systems.
@@ -107,6 +135,10 @@
 ### FeelWave：通过噪声鲁棒的毫米波情感感知实现情感感知语音交互
 
 原英文标题：FeelWave: Enabling Emotion-Aware Voice Interaction through Noise-Robust mmWave Emotion Sensing
+
+作者：Lingyu Wang, You Zuo, Di Wang, Chenming He, Chengzhen Meng, Xinran Zhang, Xiaoran Fan, Yanyong Zhang
+
+出版来源：Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
 
 出版时间：2026-04-13
 
@@ -120,6 +152,10 @@
 
 原英文标题：FlowGait: Enabling Robust Long-Term Gait Recognition Across Real-World Covariates with mmWave Radar
 
+作者：Di Wang, Chenming He, Lingyu Wang, Chengzhen Meng, Xiaoran Fan, Yanyong Zhang
+
+出版来源：Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
+
 出版时间：2026-04-13
 
 原英文摘要：Gait recognition enables proactive and personalized smart home interactions, but its long-term reliability is challenged by the non-static nature of gait. Covariates like carrying items and clothing induce a persistent domain shift that degrades traditional, static models. To solve this, we introduce FlowGait, a mmWave-based framework designed for robust, long-term adaptation. It combines self-training with continual learning, allowing the model to daily align with a user’s evolving gait by learning from readily available unlabeled data. It features a specialized transformer network for radar spectrogram analysis and a novel two-stage labeling algorithm that leverages the gait’s hierarchical nature to assign pseudo-labels to the unlabeled data accurately. Evaluated on three challenging datasets from 47 volunteers (covering 12 gait-covariates, 11 routes, and two weeks), FlowGait achieves high accuracies of 94.8 (cross-covariate), 98.6% (cross-route), and 95.5% (cross-day). Notably, for the long-term dataset, it reduced performance decay from 13.6% to just 1.4%, demonstrating its real-world robustness.
@@ -131,6 +167,10 @@
 ### FMCW雷达动态解调：实现精确振动测量
 
 原英文标题：FMCW radar dynamic demodulation: Enabling accurate vibration measurement
+
+作者：Long Su, Zhibo Yang, Shuming Wu, Yajie Guan, Ye Tian, Baijie Qiao, Xuefeng Chen
+
+出版来源：Mechanical Systems and Signal Processing
 
 出版时间：2026-04-13
 
@@ -144,6 +184,10 @@
 
 原英文标题：FROM RAW ADC TO 3D POINT CLOUD GENERATION: AN END-TO-END MMWAVE RADAR FRAMEWORK FOR HUMAN BODY DETECTION AND ACTIVITY ANALYSIS
 
+作者：A Shahin
+
+出版来源：Master's thesis, The University of Akron
+
 出版时间：2026-04-15
 
 原英文摘要：Millimeter-wave (mmWave) radar has emerged as a promising sensing modality for human-centered applications due to its robustness to lighting conditions and its ability to preserve user privacy. Recent studies have demonstrated the effectiveness of mmWave radar-based point clouds for tasks such as human localization, activity recognition, and tracking. However, many existing works rely on vendor-generated point clouds or focus primarily on downstream learning tasks. Consequently, the underlying signal processing stages that produce these 3D representations often remain opaque, limiting reproducibility and control over point-cloud generation. This thesis presents a transparent end-to-end framework for generating 3D human point clouds directly from raw mmWave radar analog-to-digital converter (ADC) data. Starting from raw frequency-modulated continuous-wave (FMCW) radar measurements, the proposed pipeline implements range processing, Doppler estimation, azimuth and elevation angle-of-arrival estimation, and Cartesian coordinate mapping to reconstruct spatial representations of detected targets. By explicitly implementing each stage of the radar signal processing pipeline, the framework provides improved transparency and allows detailed analysis of the generated spatial measurements. iii To improve the quality and stability of the generated point clouds, the framework incorporates practical filtering mechanisms including field-of-view gating, height constraints, ghost-point suppression, and the extraction of per-point attributes such as velocity and reflection intensity. The resulting point clouds provide a sparse yet informative representation of human targets, capturing both spatial structure and motion characteristics. The proposed system is designed to support efficient processing through frame-level parallelization. Experimental results demonstrate that the proposed framework can reliably generate consistent and interpretable 3D human point clouds in indoor environments. The results show that the generated spatial measurements capture meaningful motion characteristics and provide a suitable foundation for downstream tasks such as localization, tracking, and learning-based human activity analysis. iv
@@ -155,6 +199,10 @@
 ### 混合物理光学与几何光学方法：用于毫米波FMCW雷达地下成像建模
 
 原英文标题：Hybrid Physical and Geometrical Optics Method for Modeling Subsurface Imaging Using mmWave FMCW Radar
+
+作者：Kaito Ichijo, Hang Song, Xin Du, Bo Wei, Junichi Takada
+
+出版来源：arXiv
 
 出版时间：2026-04-11
 
@@ -168,6 +216,10 @@
 
 原英文标题：MIMO Through-the-Wall Radar Micro-Doppler Signature Representation Under Limited Data Using Heterogeneous Transfer Learning
 
+作者：Weicheng Gao, Kun Dong, Jingyi Feng, Yi Xu, Xiaodong Qu, Xiaopeng Yang
+
+出版来源：IEEE Signal Processing Letters
+
 出版时间：2026-01-01
 
 原英文摘要：Identifying indoor individuals using micro-Doppler signature of multiple-input multiple-output (MIMO) through-the-wall radar (TWR), and determining whether they pose a threat holds significant research value in the field of urban security surveillance. However, large-scale TWR human motion data is difficult to collect, which reduces the recognition performance. To address this issue, a MIMO TWR micro-Doppler signature representation method under limited data based on heterogeneous transfer learning is proposed in this letter. The multi-channel TWR human motion Doppler-time maps (DTMs) are first generated, and the trace-ratio group sparse method is then proposed for multi-channel DTM feature augmentation. In addition, a micro-Doppler signature representation method based on optimal transport domain adaptation heterogeneous transfer learning is proposed. By leveraging large-scale millimeter-wave radar human gait data, the proposed method guides the micro-Doppler signature representation to maximize inter-class separation on the TWR DTM set. The effectiveness of the proposed method is validated through a few-shot measured dataset collected for TWR human threat identification.
@@ -179,6 +231,10 @@
 ### 海上监视中的多传感器数据融合：方法与应用综述
 
 原英文标题：Multi-sensor data fusion in maritime surveillance: a review on methods and applications
+
+作者：Berrin Bal Şahin, Çağatay Berke Erdaş, Emre Sümer
+
+出版来源：PeerJ Computer Science
 
 出版时间：2026-04-14
 
@@ -192,6 +248,10 @@
 
 原英文标题：Multimodal Sensor Fusion for Real-Time Object Detection
 
+作者：Nethra K, Kavya Nayak, Sinchana, Nithish N, Raghavendra M Shet
+
+出版来源：E3S Web of Conferences
+
 出版时间：2026-04-15
 
 原英文摘要：This paper describes a multimodal sensor fusion developed on the Raspberry Pi platform for real-time object detection and distance estimation. This architecture has a camera and a 24 GHz mmWave radar sensor for achieving the vision and a range sensing. A pretrained YOLO model is used for identifying classes such as persons from live video frames to carry out real-time object detection. The radar provides the distance measurement for which a 1-D linear Kalman filter is applied to get a smooth and accurate estimate, and then fused with the camera data. The result of this experiment showed that the fused system offers significantly higher stability in object detection and distance estimation as compared to single sensor readings. A final configuration where radar measurement is activated only when the detected object is at the centre of the frame, which achieved near-accurate results with less noise. The proposed system is lightweight and also cost-effective for real-time perception for low-cost embedded applications in autonomous vehicles and intelligent surveillance.
@@ -203,6 +263,10 @@
 ### 多站点FMCW SISO雷达系统实现多人呼吸监测
 
 原英文标题：Respiration Monitoring of Multiple People using Multi-site FMCW SISO Radar Systems
+
+作者：Lang Qin, Mandong Zhang, Wenting Song, Zhiqiang Huang, Xiaoguang Liu
+
+出版来源：arXiv
 
 出版时间：2026-04-14
 
@@ -216,6 +280,10 @@
 
 原英文标题：RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling
 
+作者：Luca Jiang-Tao Yu, Chenshu Wu
+
+出版来源：arXiv
+
 出版时间：2026-04-11
 
 原英文摘要：Wireless sensing, traditionally relying on signal processing (SP) techniques, has recently shifted toward data-driven deep learning (DL) to achieve performance breakthroughs. However, existing deep wireless sensing models are typically end-to-end and task-specific, lacking reusability and interpretability. We propose RF-LEGO, a modular co-design framework that transforms interpretable SP algorithms into trainable, physics-grounded DL modules through deep unrolling. By replacing hand-tuned parameters with learnable ones while preserving core processing structures and mathematical operators, RF-LEGO ensures modularity, cascadability, and structure-aligned interpretability. Specifically, we introduce three deep-unrolled modules for critical RF sensing tasks: frequency transform, spatial angle estimation, and signal detection. Extensive experiments using real-world data for Wi-Fi, millimeter-wave, UWB, and 6G sensing demonstrate that RF-LEGO significantly outperforms existing SP and DL baselines, both standalone and when integrated into multiple downstream tasks. RF-LEGO pioneers a novel SP-DL co-design paradigm for wireless sensing via deep unrolling, shedding light on efficient and interpretable deep wireless sensing solutions. Our code is available at https://github.com/aiot-lab/RF-LEGO.
@@ -227,6 +295,10 @@
 ### RIS辅助感知：毫米波波段雷达三维成像的实验验证
 
 原英文标题：RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band
+
+作者：Sergio Micó-Rosa, Alvaro Villaescusa-Tebar, Saúl Fenollosa, Carlos Villena-Jiménez, Monika Drozdowska, Narcis Cardona
+
+出版来源：arXiv
 
 出版时间：2026-04-14
 
@@ -240,6 +312,10 @@
 
 原英文标题：SynFlow: Scaling Up LiDAR Scene Flow Estimation with Synthetic Data
 
+作者：Qingwen Zhang, Xiaomeng Zhu, Chenhan Jiang, Patric Jensfelt
+
+出版来源：arXiv
+
 出版时间：2026-04-10
 
 原英文摘要：Reliable 3D dynamic perception requires models that can anticipate motion beyond predefined categories, yet progress is hindered by the scarcity of dense, high-quality motion annotations. While self-supervision on unlabeled real data offers a path forward, empirical evidence suggests that scaling unlabeled data fails to close the performance gap due to noisy proxy signals. In this paper, we propose a shift in paradigm: learning robust real-world motion priors entirely from scalable simulation. We introduce SynFlow, a data generation pipeline that generates large-scale synthetic dataset specifically designed for LiDAR scene flow. Unlike prior works that prioritize sensor-specific realism, SynFlow employs a motion-oriented strategy to synthesize diverse kinematic patterns across 4,000 sequences ($\sim$940k frames), termed SynFlow-4k. This represents a 34x scale-up in annotated volume over existing real-world benchmarks. Our experiments demonstrate that SynFlow-4k provides a highly domain-invariant motion prior. In a zero-shot regime, models trained exclusively on our synthetic data generalize across multiple real-world benchmarks, rivaling in-domain supervised baselines on nuScenes and outperforming state-of-the-art methods on TruckScenes by 31.8%. Furthermore, SynFlow-4k serves as a label-efficient foundation: fine-tuning with only 5% of real-world labels surpasses models trained from scratch on the full available budget. We open-source the pipeline and dataset to facilitate research in generalizable 3D motion estimation. More detail can be found at https://kin-zhang.github.io/SynFlow.
@@ -251,6 +327,10 @@
 ### 面向环境感知的低空经济：合成孔径雷达作为共享感知基础设施
 
 原英文标题：Toward Environment-Aware LAE: SAR as a Shared Sensing Infrastructure
+
+作者：Xue Zhang, Bang Huang, Mohamed-Slim Alouini
+
+出版来源：arXiv
 
 出版时间：2026-04-13
 
@@ -264,6 +344,10 @@
 
 原英文标题：VLMaterial: Vision-Language Model-Based Camera-Radar Fusion for Physics-Grounded Material Identification
 
+作者：Jiangyou Zhu, He Chen
+
+出版来源：arXiv
+
 出版时间：2026-04-13
 
 原英文摘要：Accurate material recognition is a fundamental capability for intelligent perception systems to interact safely and effectively with the physical world. For instance, distinguishing visually similar objects like glass and plastic cups is critical for safety but challenging for vision-based methods due to specular reflections, transparency, and visual deception. While millimeter-wave (mmWave) radar offers robust material sensing regardless of lighting, existing camera-radar fusion methods are limited to closed-set categories and lack semantic interpretability. In this paper, we introduce VLMaterial, a training-free framework that fuses vision-language models (VLMs) with domain-specific radar knowledge for physics-grounded material identification. First, we propose a dual-pipeline architecture: an optical pipeline uses the segment anything model and VLM for material candidate proposals, while an electromagnetic characterization pipeline extracts the intrinsic dielectric constant from radar signals via an effective peak reflection cell area (PRCA) method and weighted vector synthesis. Second, we employ a context-augmented generation (CAG) strategy to equip the VLM with radar-specific physical knowledge, enabling it to interpret electromagnetic parameters as stable references. Third, an adaptive fusion mechanism is introduced to intelligently integrate outputs from both sensors by resolving cross-modal conflicts based on uncertainty estimation. We evaluated VLMaterial in over 120 real-world experiments involving 41 diverse everyday objects and 4 typical visually deceptive counterfeits across varying environments. Experimental results demonstrate that VLMaterial achieves a recognition accuracy of 96.08%, delivering performance on par with state-of-the-art closed-set benchmarks while eliminating the need for extensive task-specific data collection and training.
@@ -275,6 +359,10 @@
 ### VULCAN：基于视觉语言模型增强的多智能体协同导航系统，用于室内火灾响应
 
 原英文标题：VULCAN: Vision-Language-Model Enhanced Multi-Agent Cooperative Navigation for Indoor Fire-Disaster Response
+
+作者：Shengding Liu, Qiben Yan
+
+出版来源：arXiv
 
 出版时间：2026-04-14
 
