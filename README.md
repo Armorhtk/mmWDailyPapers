@@ -4,6 +4,19 @@
 
 更新频率：每周三、周日。
 
+<p align="center">移动端可关注公众号同步推送</p>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/QERCODE.jpg" alt="公众号二维码" width="260">
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/PaperCover.jpg" alt="论文封面" width="260">
+    </td>
+  </tr>
+</table>
+
 ## 最新一期
 
 [独立页面：2026-04-19 至 2026-04-21](daily/2026-04-19_to_2026-04-21.md)
