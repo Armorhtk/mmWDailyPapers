@@ -8,7 +8,7 @@
 
 <table>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="40%">
       <img src="assets/QERCODE.jpg" alt="公众号二维码" width="260">
     </td>
     <td align="center" width="50%">
